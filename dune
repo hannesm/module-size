@@ -1,0 +1,3 @@
+(executable
+  (name module_size)
+  (libraries rresult bos cmdliner fmt fmt.tty logs logs.fmt logs.cli fmt.cli))
