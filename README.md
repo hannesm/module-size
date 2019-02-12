@@ -8,4 +8,6 @@ This program is not meant to give a precise answer to the question which OCaml m
 
 Tested with OCaml 4.07.1. Use at your own risk ;)
 
-Compilation: `dune build` - this requires some opam packages, as well as `nm` being installed.
+Compilation: `dune build module_size.exe` - this requires some opam packages, as well as `nm` being installed.
+
+Run: `_build/default/module_size.exe ~/my_binary.hvt` (`--help` is supported).
